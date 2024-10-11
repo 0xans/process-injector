@@ -27,11 +27,11 @@ This Rust tool made for injecting shellcode into processes on Windows.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/0xans/P-injector.git
+   git clone https://github.com/0xans/process-injector.git
    ```
 2. Go to the project directory:
    ```bash
-   cd P-injector
+   cd process-injector
    ```
 3. Build:
    ```bash
@@ -43,7 +43,7 @@ This Rust tool made for injecting shellcode into processes on Windows.
 Run the injector by specifying the target process and the shellcode file:
 
 ```bash
-./pinjector.exe -p <PID> -s <shellcode_file>
+./injector.exe -p <PID> -s <shellcode_file>
 ```
 
 ### Options:
@@ -56,7 +56,7 @@ Run the injector by specifying the target process and the shellcode file:
 To inject shellcode into a target process with PID `1234`:
 
 ```bash
-./pinjector.exe -p 1234 -s ./shellcode.bin
+./injector.exe -p 1234 -s ./shellcode.bin
 ```
 
 ## Issues?
